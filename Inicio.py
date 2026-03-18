@@ -102,7 +102,7 @@ st.markdown("""
         letter-spacing: -0.5px !important;
     }
     h2, h3 {
-        font-family: 'Inter', sans-serif !important;
+        font-family: 'Montserrat', sans-serif !important;
         color: #1f2937 !important;
         font-weight: 600 !important;
     }
