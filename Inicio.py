@@ -76,7 +76,7 @@ st.markdown("""
         background-color: #ffffff !important;
         border: 1px solid #d1d5db !important;
         border-radius: 6px !important;
-        color: #111827 !important;
+        color: #A4CFDE !important;
         font-family: 'Inter', sans-serif !important;
         font-size: 0.9rem !important;
     }
