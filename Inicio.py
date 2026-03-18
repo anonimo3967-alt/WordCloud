@@ -73,10 +73,10 @@ st.markdown("""
 
     /* Inputs */
     textarea, input[type="text"] {
-        background-color: #ffffff !important;
+        background-color: #A4CFDE !important;
         border: 1px solid #d1d5db !important;
         border-radius: 6px !important;
-        color: #A4CFDE !important;
+        color: #000000 !important;
         font-family: 'Inter', sans-serif !important;
         font-size: 0.9rem !important;
     }
