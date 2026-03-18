@@ -74,7 +74,7 @@ st.markdown("""
     /* Inputs */
     textarea, input[type="text"] {
         background-color: #A4CFDE !important;
-        border: 1px solid #d1d5db !important;
+        border: 1px solid #A4BDDE !important;
         border-radius: 6px !important;
         color: #000000 !important;
         font-family: 'Inter', sans-serif !important;
