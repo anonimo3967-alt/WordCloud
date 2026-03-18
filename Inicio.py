@@ -96,7 +96,7 @@ st.markdown("""
 
     /* Títulos */
     h1 {
-        font-family: 'Montserrat' !important;
+        font-family: 'Verdana' !important;
         color: #111827 !important;
         font-weight: 700 !important;
         letter-spacing: -0.5px !important;
