@@ -46,7 +46,7 @@ st.markdown("""
 
     /* Sidebar blanco con borde sutil */
     [data-testid="stSidebar"] {
-        background-color: #ffffff !important;
+        background-color: #A4DEDA !important;
         border-right: 1px solid #dde1e7;
     }
     [data-testid="stSidebar"] h2,
