@@ -303,6 +303,7 @@ PALETAS = {
     "Terracota":            ["#7c2d12","#9a3412","#c2410c","#ea580c","#f97316","#fb923c","#fdba74"],
     "Índigo profundo":      ["#1e1b4b","#312e81","#3730a3","#4338ca","#4f46e5","#6366f1","#818cf8"],
     "Monocromático negro":  ["#000000","#111111","#222222","#444444","#666666","#888888","#aaaaaa"],
+    "Devil May Cry":        ["#ce1818","#75dcd5","#000000","#ffffff","#bcbcbc","#888888","#aaaaaa"]
 }
 
 FORMAS = {
