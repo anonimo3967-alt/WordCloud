@@ -41,7 +41,7 @@ st.markdown("""
 
     /* Fondo general gris muy claro */
     .stApp {
-        background-color: #f4f5f7;
+        background-color: #A0E0DF;
     }
 
     /* Sidebar blanco con borde sutil */
