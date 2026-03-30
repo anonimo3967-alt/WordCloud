@@ -390,36 +390,27 @@ with st.sidebar:
 
         with st.expander("Cargar texto de ejemplo"):
             ejemplos = {
-                "Inteligencia Artificial": """
-                La inteligencia artificial es una disciplina de la informática orientada a desarrollar
-                sistemas capaces de ejecutar tareas que requieren capacidades cognitivas humanas.
-                El aprendizaje automático, las redes neuronales profundas y el procesamiento del
-                lenguaje natural constituyen los pilares técnicos de los sistemas modernos de
-                inteligencia artificial. Los modelos de lenguaje de gran escala, la visión
-                computacional y la robótica autónoma representan aplicaciones de vanguardia.
-                La inteligencia artificial transforma sectores como la salud, la educación,
-                la manufactura, las finanzas y el transporte, generando eficiencias significativas.
+                "¿Que es Hades?": """
+                Hades es un juego roguelike de exploración de mazmorras que combina los mejores aspectos 
+                de los aclamados títulos anteriores de Supergiant, como la acción rápida de Bastion, la 
+                atmósfera y la profundidad de Transistor y la narrativa centrada en los personajes de Pyre.
+                Como el príncipe inmortal del Inframundo, tendrás a tu disposición los poderes y las armas
+                míticas del Olimpo para liberarte de las garras del mismísimo dios de los muertos, al tiempo
+                que te vas haciendo más fuerte y descubres más piezas de la historia con cada intento de fuga.
                 """,
-                "Colombia": """
-                Colombia es una nación situada en el extremo noroccidental de América del Sur,
-                reconocida por su excepcional biodiversidad, riqueza cultural y diversidad de paisajes.
-                Bogotá es la capital y principal centro económico, seguida de Medellín, Cali y
-                Barranquilla como ciudades de relevancia nacional. El café colombiano goza de
-                reconocimiento internacional por su calidad y perfil aromático. La floricultura
-                colombiana abastece mercados globales con alta competitividad. El país alberga
-                ecosistemas del Amazonas, los Andes, el Caribe y el Pacífico, constituyéndose
-                como uno de los territorios con mayor biodiversidad del planeta.
+                "Parche de Cyberpunk": """
+                ¡El parche 2.21 de Cyberpunk 2077 llega a PC, PlayStation®5 y Xbox Series X|S!
+                Esta actualización añade soporte para DLSS 4 en PC, e introduce varias correcciones, 
+                especialmente en SmartFrames de Xbox y el modo foto para todas las plataformas. 
+                Esta actualización añade soporte para DLSS 4 en PC e introduce varias correcciones,
+                en particular al modo de fotos. Para más detalles, consulte la lista completa de cambios.
                 """,
-                "Tecnología 4.0": """
-                La cuarta revolución industrial redefine los modelos productivos mediante la
-                convergencia de tecnologías digitales avanzadas. El Internet de las cosas,
-                la inteligencia artificial, el análisis de grandes datos, la robótica colaborativa
-                y la automatización inteligente son pilares estratégicos de la industria moderna.
-                Las fábricas inteligentes integran sensores, conectividad y analítica para
-                optimizar procesos en tiempo real. La manufactura aditiva, los gemelos digitales
-                y la realidad aumentada transforman la ingeniería de producción. La computación
-                en la nube y la ciberseguridad son habilitadores fundamentales de la
-                transformación digital empresarial.
+                "Cyberpunk edgerunners": """
+                Edgerunners tells a standalone, 10-episode story about a street kid
+                — David — trying to survive in Night City, a technology and body 
+                modification-obsessed city of the future. Having everything to lose,
+                he chooses to stay alive by becoming an edgerunner—a mercenary outlaw 
+                also known as a cyberpunk.
                 """,
             }
             ejemplo_sel = st.selectbox("Ejemplo:", list(ejemplos.keys()),
