@@ -464,9 +464,9 @@ with st.sidebar:
 # Header
 st.markdown("""
 <div class="header-card">
-    <h1 style="margin:0; font-size:1.9rem;">☁️ WordCloud Studio</h1>
+    <h1 style="margin:0; font-size:1.9rem;">A☁️ Esto es... wordcloud</h1>
     <p style="margin:6px 0 0 0; color:#6b7280 !important; font-size:0.97rem;">
-        Análisis de frecuencia léxica y visualización de nubes de palabras
+        Se va a generar una nube...¡de palabras!
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -479,9 +479,9 @@ if not generar or not texto_input.strip():
         st.markdown('<div class="section-card">', unsafe_allow_html=True)
         st.markdown("### Acerca de esta herramienta")
         st.markdown("""
-        Una **nube de palabras** representa visualmente la frecuencia de términos en un texto:
-        las palabras más frecuentes aparecen con mayor tamaño, permitiendo identificar
-        los temas centrales de un corpus de manera intuitiva.
+        Una nube de palabras es como una nube... Pero con palabras. En vez de estar conformada por lo que sea
+        que esten conformadas las nubes, como agua, vapor, <i>et je ne sais quoi</i>, esta esta conformada por
+        palabras dado un texto.
         """)
 
         for icono, titulo, desc in [
