@@ -480,14 +480,14 @@ if not generar or not texto_input.strip():
         st.markdown("### Acerca de esta herramienta")
         st.markdown("""
         Una nube de palabras es como una nube... Pero con palabras. En vez de estar conformada por lo que sea
-        que esten conformadas las nubes, como agua, vapor, <i>et je ne sais quoi</i>, esta esta conformada por
+        que esten conformadas las nubes, como agua, vapor, et je ne sais quoi, esta esta conformada por
         palabras dado un texto.
         """)
 
         for icono, titulo, desc in [
-            ("📊", "Análisis de frecuencia", "Identifica los términos dominantes de cualquier corpus textual."),
-            ("🔍", "Filtrado inteligente", "Elimina palabras vacías (*stopwords*) en español e inglés."),
-            ("🎨", "Personalización visual", "Selecciona paleta, forma y densidad de la nube."),
+            ("🤓", "Análisis de frecuencia", "Identifica los términos dominantes de cualquier corpus textual."),
+            ("🤔", "Filtrado inteligente", "Elimina palabras vacías (*stopwords*) en español e inglés."),
+            ("👍", "Personalización visual", "Selecciona paleta, forma y densidad de la nube."),
             ("⬇️", "Exportación", "Descarga la imagen en alta resolución y la tabla de frecuencias en CSV."),
         ]:
             st.markdown(
@@ -514,13 +514,13 @@ if not generar or not texto_input.strip():
         st.markdown('<div class="section-card">', unsafe_allow_html=True)
         st.markdown("### Aplicaciones frecuentes")
         for caso in [
-            "📰 Análisis de prensa y noticias",
-            "📋 Resultados de encuestas abiertas",
-            "💬 Reseñas y comentarios de clientes",
-            "🎓 Análisis de textos académicos",
-            "🗳️ Discursos y documentos políticos",
-            "📚 Estudios literarios y de corpus",
-            "📊 Informes de inteligencia de negocio",
+            "🗿 Análisis de cosas",
+            "🗿 Resultados de entrevistas con usuarios",
+            "😡 Clientes enfadados",
+            "🎓 Nerd",
+            "🗳️ predecir eventos politicos",
+            "📚 Leer un libro",
+            "📊 Uhhh",
         ]:
             st.markdown(
                 f'<span class="uso-tag">{caso}</span>',
