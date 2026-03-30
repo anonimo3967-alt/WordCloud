@@ -169,7 +169,7 @@ st.markdown("""
 
     /* Header */
     .header-card {
-        background: #FDF7FF;
+        background: #FEDDAE;
         border: 1px solid #e5e7eb;
         border-left: 5px solid #1f2937;
         border-radius: 8px;
